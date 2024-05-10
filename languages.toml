@@ -3671,3 +3671,15 @@ grammar = "typescript"
 "{" = "}"
 "(" = ")"
 '"' = '"'
+
+[[grammar]]
+name = "tl"
+source = { git = "https://github.com/hmac/tl", subpath = "tree-sitter-tl", rev = "227a2a979c8673fb83638baa55491aac9407de1f" }
+
+[[language]]
+name = "tl"
+scope = "source.tl"
+file-types = ["tl"]
+roots = []
+comment-token = "//"
+indent = { tab-width = 2, unit = " " }
